@@ -12,8 +12,6 @@
 - CSS
 
 
-
-
 ## Live Demo (if available)
 
 
