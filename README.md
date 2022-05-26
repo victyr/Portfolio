@@ -22,13 +22,15 @@
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
-git clone https://github.com/victyr/Hello-Microverse.git
+git clone https://github.com/victyr/Portfolio.git
 
 index.html
+styles.css
 
 ### Prerequisites
 
 ### Setup
+
 
 ### Install
 
@@ -45,17 +47,7 @@ index.html
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/victyr)
-- 
--
-
-👤 **Author2**
-
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+- Victor Walugembe
 
 ## Show your support
 
