@@ -1,19 +1,17 @@
-.toolbar{
+
+.toolbar {
   display: flex;
   position: absolute;
   width: 375px;
   height: 10px;
-  left: 0px;
-  top: 0px;
-
 }
 
-.logo{
+.logo {
   flex-direction: row;
   padding-left: 10%;
 }
 
-.menu{
+.menu {
   flex-direction: row;
   padding-left: 90%;
 }
@@ -28,7 +26,7 @@
   flex-direction: column;
 }
 
-.intro{
+.intro {
   width: 327px;
   height: 150px;
   font-family: 'Poppins';
@@ -38,7 +36,7 @@
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -48,7 +46,7 @@
   padding-right: 90%;
 }
 
-.content{
+.content {
   width: 327px;
   height: 146px;
   font-family: 'Poppins';
@@ -66,7 +64,7 @@
   padding-right: 90%;
 }
 
-.linked{
+.linked {
   width: 50px;
   height: 50px;
   position: absolute;
@@ -75,7 +73,7 @@
 
 }
 
-.twit{
+.twit {
   padding-left: 80px;
   width: 50px;
   height: 50px;
@@ -84,7 +82,7 @@
   
 }
 
-.social{
+.social {
   width: 300px;
   height: 50px;
   position: absolute;
