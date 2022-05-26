@@ -4,6 +4,8 @@
   position: absolute;
   width: 375px;
   height: 10px;
+  flex-flow: row;
+  padding-top: 1%;
 }
 
 .logo {
@@ -24,11 +26,14 @@
   width: 375px;
   height: 718px;
   flex-direction: column;
+  padding-top: 3%;
 }
 
 .intro {
   width: 327px;
   height: 150px;
+  font-family: 'Poppins';
+  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -47,6 +52,8 @@
 .content {
   width: 327px;
   height: 146px;
+  font-family: 'Poppins';
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -72,28 +79,28 @@
   width: 30px;
   height: 50px;
   padding-top: 520px;
-  padding-left: 10%;
+  padding-left: 14%;
 }
 
 .vectorm {
   width: 30px;
   height: 50px;
   padding-top: 525px;
-  padding-left: 18%;
+  padding-left: 25%;
 }
 
 .vectorp {
   width: 25px;
   height: 40px;
   padding-top: 525px;
-  padding-left: 26%;
+  padding-left: 35%;
 }
 
 .vector {
   width: 20px;
   height: 40px;
   padding-top: 525px;
-  padding-left: 34%;
+  padding-left: 45%;
 }
 
 .social {
@@ -113,7 +120,7 @@
   width: 38.5px;
   height: 19.25px;
   left: 14.04px;
-  top: 161.47px;
+  top: 210.47px;
 }
 
 .bg-imagea {
@@ -124,7 +131,7 @@
   width: 38.5px;
   height: 19.25px;
   left: 130.04px;
-  top: 148.47px;
+  top: 178.47px;
 }
 
 .bg-imageb {
@@ -135,7 +142,7 @@
   width: 38.5px;
   height: 19.25px;
   left: 133.04px;
-  top: 161.47px;
+  top: 191.47px;
 }
 
 .bg-image2 {
@@ -146,7 +153,7 @@
   width: 10.5px;
   height: 19.25px;
   left: 300.04px;
-  top: 140.47px;
+  top: 150.47px;
 }
 
 .bg-image3 {
