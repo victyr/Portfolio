@@ -44,10 +44,10 @@ styles.css
 
 ## Authors
 
-👤 **Author1**
+👤 **Walugembe Victor**
 
 - GitHub: [@githubhandle](https://github.com/victyr)
-- Victor Walugembe
+- 
 
 ## Show your support
 
