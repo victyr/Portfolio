@@ -27,8 +27,6 @@
 .intro {
   width: 327px;
   height: 150px;
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -47,8 +45,6 @@
 .content {
   width: 327px;
   height: 146px;
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -71,7 +67,6 @@
 }
 
 .twit {
-  padding-left: 80px;
   width: 50px;
   height: 50px;
   padding-top: 520px;
