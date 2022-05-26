@@ -1,7 +1,6 @@
 
 .toolbar {
   display: flex;
-  position: absolute;
   width: 375px;
   height: 10px;
   flex-flow: row;
@@ -12,6 +11,7 @@
   flex-direction: row;
   padding-left: 10%;
   padding-top: 30%;
+  cursor: pointer;
 }
 
 .menu {
@@ -32,7 +32,7 @@
 .intro {
   width: 327px;
   height: 150px;
-  font-family: 'Poppins';
+  font-family: 'san-serif';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -52,7 +52,7 @@
 .content {
   width: 327px;
   height: 146px;
-  font-family: 'Poppins';
+  font-family: 'san-serif';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -107,9 +107,10 @@
   width: 300px;
   height: 50px;
   position: absolute;
-  color: blue;
+  color: rgb(112, 112, 231);
   padding-top: 500px;
   padding-left: 10%;
+  list-style: none;
 }
 
 .bg-image1 {
@@ -164,7 +165,7 @@
   width: 10.5px;
   height: 19.25px;
   left: 300.04px;
-  top: 550.47px;
+  top: 570.47px;
 }
 
 .bg-image4 {
