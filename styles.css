@@ -19,7 +19,7 @@ body {
   background-image: url('images/bg-icons.png');
   background-position: relative;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: contain;
 }
 
 .top {
@@ -60,9 +60,10 @@ h3 {
 .works {
   display: grid;
   grid-template-columns: 1fr;
-  padding-top: 5px;
+  padding: 40px 30px 10px 30px;
   background-color: #e5e5e5;
-  max-width: 768px;
+  max-width: auto;
+  min-width: fit-content;
 }
 
 .project1 {
@@ -71,6 +72,7 @@ h3 {
   border: #dfe1e6 solid;
   border-radius: 16px;
   background-color: #fff;
+
 }
 
 .project2 {
@@ -192,4 +194,10 @@ h3 {
 .side-icon {
   width: 10px;
   height: 10px;
+}
+
+.headline{
+  padding: 40px 30px 10px 30px;
+  max-width: auto;
+  min-width: fit-content;
 }
