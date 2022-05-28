@@ -1,11 +1,5 @@
 # Portfolio
-
-
-# Project Name
-
-> Portfolio
-
-
+# Mobile version
 ## Built With
 
 - HTMl
@@ -17,15 +11,13 @@
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+Major languages: HTML|CSS
+Frameworks: None
+Technologies used: None
 
 git clone https://github.com/victyr/Portfolio.git
 
-index.html
-styles.css
+
 
 ### Prerequisites
 
