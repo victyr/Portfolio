@@ -61,6 +61,7 @@ h3 {
   border: blue solid;
   padding: 0 30px;
   background-color: #e5e5e5;
+  max-width: 768px;
 }
 
 .project1{
@@ -99,12 +100,41 @@ h3 {
 .proj-title{
   font-weight: 700;
   font-size: 32px;
-  font-family: sans-serif;
   color:  #172b4d;
 }
 
 .list1{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 80%;
+  font-weight: 600;
+  font-size: 13px;
+  color: #7a869a;
+}
+
+.parag{
+  font-weight: 400;
+  font-size: 15;
+  color: #344563;
+  line-height: 24px;
+}
+
+.proj-tech{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.proj-img{
+  max-width: 100%;
+}
+
+.bg-works{
+  background-image: url(images/works1.png);
+  width:80%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 42%;
 }
