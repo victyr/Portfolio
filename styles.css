@@ -4,7 +4,7 @@ body {
 
 .header {
   position: relative;
-  padding: 15px 30px 0 30px;
+  padding: 15px 30px 10px 30px;
   display: flex;
   justify-content: space-between;
 }
@@ -17,7 +17,7 @@ body {
   padding: 12em;
   position: relative;
   background-image: url('images/bg-icons.png');
-  background-position: center;
+  background-position: relative;
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -48,7 +48,10 @@ ul {
 
 .icon {
   padding: 5px;
-  font-size: 1.5rem;
+  width: 17.00px;
+  height: 20px;
+  color: #505f79;
+
 }
 
 h3 {
@@ -56,10 +59,9 @@ h3 {
 }
 
 .works {
-  display: grid;
-  grid-template-columns: 1fr;
-  border: blue solid;
-  padding: 0 30px;
+  /* display: grid; */
+  /* grid-template-columns: 1fr; */
+  padding-top: 5px;
   background-color: #e5e5e5;
   max-width: 768px;
 }
@@ -192,3 +194,4 @@ h3 {
   width: 10px;
   height: 10px;
 }
+
