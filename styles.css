@@ -131,20 +131,11 @@ h3 {
   max-width: 100%;
 }
 
-.bg-works{
-  background-image: url(images/works1.png);
-  width:80%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 42%;
-}
-
 .about-sect {
   max-width: 768px;
   background: #e5e5e5;
   background-color: #fff;
   margin: 0 30px;
-  border: 2px solid red;
 }
 
 .about { 
@@ -153,7 +144,6 @@ h3 {
  }
 
 .conn-about {
-  border: 2px solid green;
   padding: 0 30px;
 }
 
@@ -178,7 +168,6 @@ h3 {
 .about-btn { margin: 10px 30px; }
 
 .skills {
-  border: 2px solid yellow;
   padding: 0 30px;
 }
 
@@ -186,7 +175,6 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 2px solid red;
   align-items: center;
 
 
