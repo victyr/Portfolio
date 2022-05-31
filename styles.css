@@ -207,21 +207,18 @@ h3 {
   border: green solid;
   border-radius: 16px;
 }
+
 .bg_footer_icon {
   position: relative;
 }
 
-.bgft{
+.bgft {
   padding: 12em;
   position: relative;
   background-image:url('images/footer2.png'), url('images/footer1.png');
   background-position:relative,relative;
   background-repeat: no-repeat,no-repeat;
   background-size: cover;
-}
-
-.contact-form{
-
 }
 
 .contact-group {
@@ -239,6 +236,7 @@ textarea {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
+
 .form-contact {
   display: flex;
   flex-direction: column;
@@ -246,7 +244,7 @@ textarea {
   gap: 2rem;
 }
 
-.contact-me{
+.contact-me {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -263,7 +261,7 @@ textarea {
 
 }
 
-input{
+input {
   width: 100%;
   height: 48px;
   border-radius: 8px;
@@ -271,7 +269,7 @@ input{
   padding-bottom: 20px;
 }
 
-button{
+button {
   width: max-content;
   height: 48px;
   left: 24px;
@@ -281,6 +279,6 @@ button{
   align-items: left;
 }
 
-.user_name{
+.user_name {
   min-width:100% ;
 }
