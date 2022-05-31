@@ -215,9 +215,9 @@ h3 {
 .bgft {
   padding: 12em;
   position: relative;
-  background-image:url('images/footer2.png'), url('images/footer1.png');
-  background-position:relative,relative;
-  background-repeat: no-repeat,no-repeat;
+  background-image: url('images/footer2.png'), url('images/footer1.png');
+  background-position: relative, relative;
+  background-repeat: no-repeat, no-repeat;
   background-size: cover;
 }
 
@@ -248,12 +248,11 @@ textarea {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .paragraph_contact {
   left: 24px;
-  font-weight: 500;
   font-size: 20px;
   line-height: 28px;
   font-weight: 400;
@@ -280,5 +279,5 @@ button {
 }
 
 .user_name {
-  min-width:100% ;
+  min-width: 100%;
 }
