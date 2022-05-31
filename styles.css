@@ -257,7 +257,6 @@ textarea {
   line-height: 28px;
   font-weight: 400;
   color: #ebebff;
-
 }
 
 input {
@@ -273,7 +272,7 @@ button {
   height: 48px;
   left: 24px;
   border-radius: 8px;
-  background: #ffffff;
+  background: #fff;
   padding: 12px 16px;
   align-items: left;
 }
