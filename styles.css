@@ -204,7 +204,6 @@ h3 {
 }
 
 .bgft {
-  padding: 12em;
   position: relative;
   background-image: url("images/footer2.png"), url("images/footer1.png");
   background-position: relative, relative;
@@ -229,42 +228,47 @@ h3 {
 
 .contact_align {
   color: #fff;
+  padding-top: 127px;
 }
 
 .pitch {
-  width: 327px;
-  height: 102px;
   color: #ebebff;
+  padding-left: 24px;
+  padding-right: 24;
 }
 
 .organize_input {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding-left: 24;
+  padding-right: 24;
 }
 
 textarea {
-  width: 100%;
   height: 170px;
   color: #cfd8dc;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 input {
-  width: 100%;
   height: 48px;
   border-radius: 8px;
   border: 1px solid;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 button {
   width: 140px;
   height: 48px;
-  left: 24px;
   border-radius: 8px;
   background: #fff;
   padding: 20px 16px;
   align-items: left;
   margin-top: 1rem;
+  margin-left: 20px;
 }
