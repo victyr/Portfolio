@@ -16,10 +16,10 @@ body {
 .bg {
   padding: 12em;
   position: relative;
-  background-image: url('images/bg-icons.png');
+  background-image: url("images/bg-icons.png");
   background-position: relative;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: auto;
 }
 
 .top {
@@ -62,7 +62,7 @@ h3 {
   grid-template-columns: 1fr;
   padding: 40px 30px 10px 30px;
   background-color: #e5e5e5;
-  max-width: auto;
+  max-width: 600;
   min-width: fit-content;
 }
 
@@ -167,7 +167,9 @@ h3 {
   text-decoration-color: #6070ff;
 }
 
-.about-btn { margin: 10px 30px; }
+.about-btn {
+  margin: 10px 30px;
+}
 
 .skills {
   padding: 0 30px;
@@ -197,6 +199,74 @@ h3 {
 
 .headline {
   padding: 40px 30px 10px 30px;
-  max-width: auto;
+  max-width: 600;
   min-width: fit-content;
+}
+
+.bgft {
+  position: relative;
+  background-image: url("images/footer2.png"), url("images/footer1.png");
+  background-position: relative, relative;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+}
+
+.contact-group {
+  margin-top: 88px;
+  padding: 16px;
+  border-radius: 16px;
+  min-width: fit-content;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact_align {
+  color: #fff;
+  padding-top: 127px;
+}
+
+.pitch {
+  color: #ebebff;
+  padding-left: 24px;
+  padding-right: 24;
+}
+
+.organize_input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 24;
+  padding-right: 24;
+}
+
+textarea {
+  height: 170px;
+  color: #cfd8dc;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+input {
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+button {
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 20px 16px;
+  align-items: left;
+  margin-top: 1rem;
+  margin-left: 20px;
 }
