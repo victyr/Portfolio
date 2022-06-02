@@ -4,8 +4,13 @@ body {
 }
 
 .header {
-  position: relative;
+  position: 100%;
   padding: 15px 30px 10px 30px;
+}
+
+.main-sec {
+  min-width: 378px;
+  height: auto;
 }
 
 .mobile-nav {
@@ -13,6 +18,7 @@ body {
   flex-direction: row;
   justify-content: center;
   justify-content: space-between;
+  color: blue;
 }
 
 .bg {
@@ -23,15 +29,8 @@ body {
   background-size: cover;
 }
 
-.top {
-  border: red solid;
-  display: flex;
-}
-
 .align-top {
-  display: flex;
-  flex-direction: column;
-  width: 80%;
+  padding-left: 60px;
 }
 
 .my-description {
@@ -208,8 +207,12 @@ h3 {
   min-width: fit-content;
 }
 
+footer {
+  min-width: 378px;
+}
+
 .bgft {
-  position: relative;
+  position: 100%;
   background-image: url("images/footer2.png"), url("images/footer1.png");
   background-position: relative, relative;
   background-repeat: no-repeat, no-repeat;
@@ -364,6 +367,10 @@ button {
     display: block;
   }
 
+  .toolbar logo {
+    display: block;
+  }
+
   .mobile-nav {
     display: none;
   }
@@ -376,5 +383,17 @@ button {
     justify-content: left;
     gap: 10px;
     padding-left: 60%;
+  }
+
+  .img-size {
+    width: 290px;
+  }
+
+  .bg {
+    position: relative;
+    background-image: url("images/desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
