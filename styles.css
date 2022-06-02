@@ -367,21 +367,18 @@ button {
     display: block;
   }
 
-  .toolbar logo {
-    display: block;
-  }
-
   .mobile-nav {
     display: none;
   }
 
   .desk-nav {
+    text-decoration: black;
     display: block;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: left;
-    gap: 10px;
+    gap: 20px;
     padding-left: 60%;
   }
 
