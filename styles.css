@@ -356,22 +356,19 @@ button {
     padding-top: 85px;
   }
 
-  img{
+  /* img{
     width: 298;
 
-  }
+  }*/
 
-  
   .mobile-works1 {
     display: none;
   }
 
   .desktop-works1 {
-    display: block;
-    
+    display: block; 
   }
 
-  
   .mobile-nav {
     display: none;
   }
