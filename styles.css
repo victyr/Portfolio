@@ -1,19 +1,24 @@
 body {
   font-family: sans-serif;
-
+  box-sizing: border-box;
 }
 
 .header {
   position: relative;
   padding: 15px 30px 10px 30px;
+}
+
+.mobile-nav {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   justify-content: space-between;
 }
 
 .bg {
   position: relative;
   background-image: url("images/bg-icons.png");
-  background-position: relative;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -21,17 +26,20 @@ body {
 .top {
   border: red solid;
   display: flex;
-  flex-direction: column;
-  flex-grow: calc();
 }
 
-h1 {
-  font-size: 40px;
-  padding-top: 150px;
+.align-top{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
 }
 
 .my-description {
   font-size: 16px;
+}
+
+h1 {
+  font-size: 40px;
 }
 
 .social-icons {
@@ -209,7 +217,7 @@ h3 {
 }
 
 .contact-group {
-  margin-top: 88px;
+  margin-top: 106px;
   padding: 16px;
   border-radius: 16px;
   min-width: fit-content;
@@ -228,8 +236,7 @@ h3 {
 
 .pitch {
   color: #ebebff;
-  padding-left: 24px;
-  padding-right: 24;
+  width: 50%;
 }
 
 .organize_input {
@@ -268,20 +275,24 @@ button {
   margin-left: 20px;
 }
 
-@media screen and (min-width: 768px){
-  .description{
-    justify-content: center;
-  }
-  .project1{
+.desktop-works1 {
+  display: none;
+}
+
+.desk-nav {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  
+  .project1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: red solid;    
+    border: red solid;
+    gap: 20px;
   }
-  .proj-desc{
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+
   .list1 {
     display: flex;
     flex-direction: row;
@@ -297,45 +308,69 @@ button {
     justify-content: space-between;
     width: 50%;
   }
-  .project2{
-    display: flex;
-    flex-direction:row-reverse;
-    justify-content: space-around;   
-  }
-  .project3{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;   
-  }
-  .project4{
+  .project2 {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;   
+    justify-content: space-around;
   }
-  .about-sect{
+  .project3 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;   
+    justify-content: space-around;
+    gap: 20px;
+  }
+  .project4 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  .about-sect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
-.skills{
+  .skills {
     padding-top: 160px;
   }
 
-.skill-one{
-  padding-right: 30px;
-}
+  .skill-one {
+    padding-right: 30px;
+  }
 
-.arrange-lang{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 15px;
-}
+  .arrange-lang {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+  }
 
-.arrange-form{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  .arrange-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 85px;
+  }
+  .mobile-works1 {
+    display: none;
+  }
+
+  .desktop-works1 {
+    display: block;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .desk-nav {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 10px;
+    padding-left: 60%;
+  }
 }
