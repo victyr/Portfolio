@@ -22,15 +22,16 @@ body {
 }
 
 .bg {
-  position: relative;
+  position: center center;
   background-image: url("images/bg-icons.png");
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .align-top {
-  padding-left: 60px;
+  padding-left: 10%;
+  padding-top: 10%;
+  width: 60%;
 }
 
 .my-description {
@@ -387,10 +388,9 @@ button {
   }
 
   .bg {
-    position: relative;
-    background-image: url("images/desktop.png");
-    background-position: center;
+    position: center center;
     background-repeat: no-repeat;
+    background-image: url("images/desktop.png");
     background-size: cover;
   }
 }
