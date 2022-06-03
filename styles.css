@@ -106,6 +106,19 @@ h3 {
   background-color: #fff;
 }
 
+.project5 {
+  display: none;
+}
+
+.project6 {
+  display: none;
+}
+
+.project7 {
+  display: none;
+}
+
+
 .proj-title {
   font-weight: 700;
   font-size: 32px;
@@ -299,6 +312,18 @@ button {
     width: 50%;
   }
 
+  .pro-desc1_4 {
+    display: none;
+  }
+
+  .pro-desc1_3 {
+    display: none;
+  }
+
+  .pro-desc2_3 {
+    display: block;
+  }
+
   .list1 {
     display: flex;
     flex-direction: row;
@@ -323,17 +348,66 @@ button {
   }
 
   .project3 {
-    display: flex;
+    display: none;
+    /* display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 20px;
+    gap: 20px; */
   }
 
   .project4 {
+    display: none;
+  }
+
+  .project2 {
+    display: none;
+  }
+
+  .project5 {
+    display: block;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    gap: 20px;
+    gap: 10px;
+    margin-top: 88px;
+    padding: 16px;
+    margin-bottom: 88;
+    border: #dfe1e6 solid;
+    border-radius: 16px;
+    background-color: #fff;
+  }
+
+  .project6 {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 88px;
+    padding: 16px;
+    margin-bottom: 88;
+    border: #dfe1e6 solid;
+    border-radius: 16px;
+    background-color: #fff;
+  }
+
+  .project7 {
+    display: block;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 88px;
+    padding: 16px;
+    margin-bottom: 88;
+    border: #dfe1e6 solid;
+    border-radius: 16px;
+    background-color: #fff;
+  }
+
+  .img-proj5 {
+    width: 50%;
+    padding-right: 10px;
   }
 
   .about-sect {
