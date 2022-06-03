@@ -312,14 +312,6 @@ button {
     width: 50%;
   }
 
-  .pro-desc1_4 {
-    display: none;
-  }
-
-  .pro-desc1_3 {
-    display: none;
-  }
-
   .pro-desc2_3 {
     display: block;
   }
@@ -368,7 +360,7 @@ button {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    gap: 10px;
+    gap: 30px;
     margin-top: 88px;
     padding: 16px;
     margin-bottom: 88;
@@ -382,7 +374,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 10px;
+    gap: 30px;
     margin-top: 88px;
     padding: 16px;
     margin-bottom: 88;
@@ -396,7 +388,7 @@ button {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    gap: 10px;
+    gap: 30px;
     margin-top: 88px;
     padding: 16px;
     margin-bottom: 88;
