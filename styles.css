@@ -402,10 +402,6 @@ button {
     flex-direction: row;
   }
 
-  .about {
-    width: 50%;
-  }
-
   .skills {
     padding-top: 10%;
     width: 50%;
