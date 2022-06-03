@@ -118,7 +118,6 @@ h3 {
   display: none;
 }
 
-
 .proj-title {
   font-weight: 700;
   font-size: 32px;
@@ -383,7 +382,7 @@ button {
     background-color: #fff;
   }
 
-  .arrange-icon{
+  .arrange-icon {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
