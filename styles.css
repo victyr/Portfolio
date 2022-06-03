@@ -52,10 +52,10 @@ ul {
 }
 
 .icon {
-  padding: 5px;
+  padding: 10px;
   width: 17px;
   height: 20px;
-  color: #505f79;
+  color: blue;
 }
 
 h3 {
@@ -135,9 +135,9 @@ h3 {
   width: 80%;
 }
 
-.proj-img {
+/* .proj-img {
   max-width: 100%;
-}
+} */
 
 .about-sect {
   width: 100%;
@@ -210,21 +210,19 @@ h3 {
 
 footer {
   min-width: 378px;
+  height: 100vh;
 }
 
 .bgft {
-  position: 100%;
+  position: center center;
   background-image: url("images/footer2.png"), url("images/footer1.png");
-  background-position: relative, relative;
   background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
 }
 
 .contact-group {
-  margin-top: 106px;
-  padding: 16px;
-  border-radius: 16px;
-  min-width: fit-content;
+  min-width: 378px;
+  height: auto;
 }
 
 .contact-me {
@@ -246,9 +244,8 @@ footer {
 .organize_input {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
-  padding-left: 24;
-  padding-right: 24;
 }
 
 textarea {
@@ -256,27 +253,30 @@ textarea {
   color: #cfd8dc;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  margin-left: 20px;
-  margin-right: 20px;
+  width: 50%;
 }
 
 input {
   height: 48px;
   border-radius: 8px;
   border: 1px solid;
-  margin-left: 20px;
-  margin-right: 20px;
+  width: 50%;
 }
 
-button {
+.bottons{
+  display: flex;
+  flex-direction: column;
+  gap: px;
+}
+
+.mobi-button {
   width: 140px;
   height: 48px;
   border-radius: 8px;
   background: #fff;
-  padding: 20px 16px;
-  align-items: left;
   margin-top: 1rem;
-  margin-left: 20px;
+  color: blue;
+
 }
 
 .desktop-works1 {
@@ -287,12 +287,21 @@ button {
   display: none;
 }
 
+.desk-button{
+  padding-left: 25%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
 @media screen and (min-width: 768px) {
   .project1 {
     display: flex;
     flex-direction: row;
-    border: red solid;
-    gap: 20px;
+    gap: 30px;
+  }
+
+  .pro-desc {
+    width: 50%;
   }
 
   .list1 {
@@ -335,11 +344,16 @@ button {
   .about-sect {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+  }
+
+  .about {
+    width: 50%;
   }
 
   .skills {
-    padding-top: 160px;
+    padding-top: 10%;
+    width: 50%;
+    padding-right: 15%;
   }
 
   .skill-one {
@@ -357,7 +371,6 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 85px;
   }
 
   .mobile-works1 {
@@ -366,6 +379,7 @@ button {
 
   .desktop-works1 {
     display: block;
+    width: 50%;
   }
 
   .mobile-nav {
@@ -388,9 +402,41 @@ button {
   }
 
   .bg {
+    background-image: url("images/desktop.png");
     position: center center;
     background-repeat: no-repeat;
-    background-image: url("images/desktop.png");
     background-size: cover;
+  }
+
+  .bgft {
+    position: center center;
+    background-image: url("images/desk2.png"), url("images/contact-desk.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, cover;
+  }
+
+  input {
+    height: 48px;
+    border: 1px solid #cfd8dc;
+    border-radius: 2px;
+    width: 447px;
+  }
+
+  textarea {
+    height: 170px;
+    color: #cfd8dc;
+    border: 1px solid #cfd8dc;
+    border-radius: 2px;
+    width: 100%;
+  }
+
+  .desk-button{
+    display:flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    position: relative;
+    padding-left: 50px;
+
   }
 }
