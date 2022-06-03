@@ -383,6 +383,12 @@ button {
     background-color: #fff;
   }
 
+  .arrange-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .project7 {
     display: block;
     display: flex;
