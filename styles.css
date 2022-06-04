@@ -396,27 +396,32 @@ button {
     width: 50%;
     padding-right: 10px;
   }
-
+  
   .about-sect {
     display: flex;
     flex-direction: row;
   }
 
+  .arrange-desk{
+    width: 50%;
+  }
+
   .skills {
     padding-top: 10%;
     width: 50%;
-    padding-right: 15%;
   }
 
   .skill-one {
     padding-right: 30px;
+    
   }
 
   .arrange-lang {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    gap: 15px;
+    justify-content:space-between;
+    width: 60%;
+    padding-top: 25px;
   }
 
   .arrange-form {
