@@ -396,13 +396,13 @@ button {
     width: 50%;
     padding-right: 10px;
   }
-  
+
   .about-sect {
     display: flex;
     flex-direction: row;
   }
 
-  .arrange-desk{
+  .arrange-desk {
     width: 50%;
   }
 
@@ -413,13 +413,12 @@ button {
 
   .skill-one {
     padding-right: 30px;
-    
   }
 
   .arrange-lang {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     width: 60%;
     padding-top: 25px;
   }
