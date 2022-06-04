@@ -13,13 +13,20 @@
   </head>
   <body>
     <header class="header">
-      <a href="#" class="toolbar logo"><img src="images/logo.png" alt="" /></a>
-      <nav class="toolbar menu"><img src="images/menu.png" alt="" /></nav>
+      <div class="mobile-nav">
+        <a href="#" class="toolbar logo"><img src="images/logo.png" alt="" /></a>
+        <label>&#9776;</label>
+      </div>
+      <div class="desk-nav">
+        <a href="#">Portfolio</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
     </header>
-    <section class="headline">
-      <div class="bg-icons">
-        <div class="bg"></div>
-        <div class="top">
+    <main class="main-sec">
+      <div class="bg">
+     <section class="top">
+       <div class="align-top">
           <div class="description">
             <h1>I'm Victor<br>Glad to see you!</h1>
             <p class="my-description">
@@ -53,18 +60,21 @@
             </ul>
           </div>
         </div>
-      </div>
-    </section>
+       <!-- </div> -->
+     </section>
+    </div>
+    </main>
     <section class="works">
       <div class="project1">
-        <img src="images/works1.png" alt=""/>
+        <div class="mobile-works1"><img src="images/works1.png" alt=""/></div>
+        <div class="desktop-works1"><img src="images/media1.png" class="img-size" alt=""/></div>
         <div class="proj-desc">
           <h2 class="proj-title">Tonic</h2>
           <ul class="list1">
             <li>CANOPY</li>
-            <li><img src="images/counter.png" alt=""/></li>
+            <li><img src="images/counter1.png" alt=""/></li>
             <li>Back End Dev</li>
-            <li><img src="images/counter.png" alt="" /></li>
+            <li><img src="images/counter1.png" alt="" /></li>
             <li>End</li>
           </ul>
           <p class="parag">
@@ -79,15 +89,83 @@
           <a href="#"><img class="see-proj" src="images/see.png" alt=""/></a>
         </div>
       </div>
+      <div class="project5">
+        <div class="img-proj5"><img src="images/multi.png" alt="" /></div>
+        <div class="proj-desc1_4">
+          <h2>Multi-post Stories</h2>
+          <ul class="list1">
+            <li>FACEBOOK</li>
+            <li><img src="images/counter1.png" alt=""/></li>
+            <li>Full Stack Dev</li>
+            <li><img src="images/counter1.png" alt="" /></li>
+            <li>End</li>
+          </ul>
+          <p class="parag">
+            Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+          </p>
+          <ul class="proj-tech">
+            <li><img src="images/htmli.png" alt=""/></li>
+            <li><img src="images/css.png" alt=""/></li>
+            <li><img src="images/javaScript.png" alt="" /></li>
+          </ul>
+          <img class="see-proj" src="images/see.png" alt=""/>
+        </div>
+    </div>
+    <div class="project6">
+      <div class="img-6roj5"><img src="images/works1.png" alt="" /></div>
+      <div class="proj-desc2_3">
+        <h2>Face book 360</h2>
+        <ul class="list1">
+          <li>FACEBOOK</li>
+          <li><img src="images/counter1.png" alt=""/></li>
+          <li>Full Stack Dev</li>
+          <li><img src="images/counter1.png" alt="" /></li>
+          <li>End</li>
+        </ul>
+        <p class="parag">
+          Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR        </p>
+        <ul class="proj-tech">
+          <li><img src="images/htmli.png" alt=""/></li>
+          <li><img src="images/css.png" alt=""/></li>
+          <li><img src="images/javaScript.png" alt="" /></li>
+        </ul>
+        <div class="arrange-icon">
+        <img class="see-proj" src="images/project6.png" alt=""/>
+        <img class="see-proj" src="images/hand.png" alt=""/>
+        </div>
+      </div>
+  </div>
+  <div class="project7">
+    <img src="images/portfolio1.png" alt=""/>
+    <div class="proj-desc_6">
+      <h2>Uber Navigation</h2>
+      <ul class="list1">
+        <li>Uber</li>
+        <li><img src="images/counter1.png" alt=""/></li>
+        <li>Lead Dev 2018</li>
+        <li><img src="images/counter1.png" alt=""/></li>
+        <li>End</li>
+      </ul>
+      <p class="parag">
+        A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+      </p>
+      <ul class="proj-tech">
+        <li><img src="images/htmli.png" alt="" /></li>
+        <li><img src="images/css.png" alt=""/></li>
+        <li><img src="images/javaScript.png" alt=""/></li>
+      </ul>
+      <img class="see-proj" src="images/see.png" alt="" />
+    </div>
+  </div>
       <div class="project2">
         <img src="images/portfolio1.png" alt=""/>
         <div class="proj-desc">
           <h2>Multi-post <br>Story</h2>
           <ul class="list1">
             <li>CANOPY</li>
-            <li><img src="images/counter.png" alt=""/></li>
+            <li><img src="images/counter1.png" alt=""/></li>
             <li>Back End Dev</li>
-            <li><img src="images/counter.png" alt=""/></li>
+            <li><img src="images/counter1.png" alt=""/></li>
             <li>End</li>
           </ul>
           <p class="parag">
@@ -103,14 +181,14 @@
         </div>
       </div>
       <div class="project3">
-        <img src="images/portfolio.png" alt="" />
-        <div class="proj-desc">
+        <img src="images/portfolio.png" alt="" class="img-des" />
+        <div class="proj-desc1_3">
           <h2>Tonic</h2>
           <ul class="list1">
             <li>CANOPY</li>
-            <li><img src="images/counter.png" alt="" /></li>
+            <li><img src="images/counter1.png" alt="" /></li>
             <li>Back End Dev</li>
-            <li><img src="images/counter.png" alt=""/></li>
+            <li><img src="images/counter1.png" alt=""/></li>
             <li>End</li>
           </ul>
           <p class="parag">
@@ -127,13 +205,13 @@
       </div>
       <div class="project4">
         <img src="images/multi.png" alt="" />
-        <div class="proj-desc">
+        <div class="proj-desc1_4">
           <h2>Multi-post <br>Story</h2>
           <ul class="list1">
             <li>CANOPY</li>
-            <li><img src="images/counter.png" alt=""/></li>
+            <li><img src="images/counter1.png" alt=""/></li>
             <li>Back End Dev</li>
-            <li><img src="images/counter.png" alt="" /></li>
+            <li><img src="images/counter1.png" alt="" /></li>
             <li>End</li>
           </ul>
           <p class="parag">
@@ -147,9 +225,33 @@
           </ul>
           <img class="see-proj" src="images/see.png" alt=""/>
         </div>
+        <div class="project5">
+          <img src="images/multi.png" alt="" />
+          <div class="proj-desc1_4">
+            <h2>Multi-post <br>Story</h2>
+            <ul class="list1">
+              <li>CANOPY</li>
+              <li><img src="images/counter1.png" alt=""/></li>
+              <li>Back End Dev</li>
+              <li><img src="images/counter1.png" alt="" /></li>
+              <li>End</li>
+            </ul>
+            <p class="parag">
+              A daily selection of privately personalized reads; no accounts
+              orsign-ups required.
+            </p>
+            <ul class="proj-tech">
+              <li><img src="images/htmli.png" alt=""/></li>
+              <li><img src="images/css.png" alt=""/></li>
+              <li><img src="images/javaScript.png" alt="" /></li>
+            </ul>
+            <img class="see-proj" src="images/see.png" alt=""/>
+          </div>
+          </div>
       </div>
     </section>
     <section class="about-sect">
+      <div class="arrange-desk">
       <div class="about">
         <h2 class="about-intro intro">About <br />Myself</h2>
         <p class="about-pitch">
@@ -179,8 +281,9 @@
             <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
           </li>
         </ul>
-      </div>
+       </div>
       <div>
+      </div>
         <button class="about-btn see_project" type="button">Get my resume</button>
       </div>
       <ul class="skills">
@@ -189,10 +292,10 @@
             <img src="images/down-icon.png" alt="icon" />
           </li>
           <li>
-          <ul>
-            <li class="skill-two"><img src="images/js-icon.png" alt="js" /><h5>JavaScript</h5><span></span></li>
-            <li class="skill-two"><img src="images/html-icon.png" alt="js" /><h5>HTML</h5><span></span></li>
-            <li class="skill-two"><img src="images/css-icon.png" alt="js" /><h5>CSS</h5><span></span></li>
+          <ul class="arrange-lang">
+            <li><img src="images/js-icon.png" alt="js" /><h5>JavaScript</h5><span></span></li>
+            <li><img src="images/html-icon.png" alt="js" /><h5>HTML</h5><span></span></li>
+            <li><img src="images/css-icon.png" alt="js" /><h5>CSS</h5><span></span></li>
           </ul>
         </li>
         <li class="skill-one">
@@ -206,24 +309,26 @@
       </ul>
     </section>
     <footer class="contact-group">
-      <div class="bgft">
-      <form action="index.html" method="post">
-      <div class="contact-me">
+    <div class="bgft">
+    <form action="index.html" method="post">
+      <div class="arrange-form">
+       <div class="contact-me">
         <h2 class="contact_align">Contact me</h2>
         <p class="pitch">
           If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
         </p>
-      </div>
-      <div class="organize_input">
-        <input type="text" name="username" placeholder="name" maxlength="30" required/>
+       </div>
+       <div class="organize_input">
+        <input type="text" class="username_text" name="username" placeholder="name" maxlength="30" required/>
         <input type="email" class="username_text" name="user_email" placeholder="email" required/>
         <textarea maxlength="500" name="textarea1" cols="30" rows="10" placeholder="write your text here" required></textarea>
+       </div>
       </div>
-      <div>
-        <button type="submit">Get it Touch</button>
+      <div class="desk-button">
+      <button type="submit">Get it Touch</button>
       </div>
     </form>
-    </div>
+  </div>
     </footer>
   </body>
 </html>

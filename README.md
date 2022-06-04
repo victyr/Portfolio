@@ -1,14 +1,9 @@
 # Portfolio
-# Mobile version
+# Desktop Version
 ## Built With
 
 - HTMl
 - CSS
-
-
-## Live Demo (if available)
-
-
 
 ## Getting Started
 Major languages: HTML|CSS
