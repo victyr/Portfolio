@@ -440,17 +440,22 @@ button {
   }
 
   .arrange-lang {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 60%;
     padding-top: 25px;
+    gap: 10px;
   }
 
   .arrange-form {
     display: grid;
     grid-template-rows: 1fr;
     align-items: center;
+  }
+
+  .skill-two {
+    display: flex;
+    flex-direction: column;
   }
 
   .mobile-works1 {
