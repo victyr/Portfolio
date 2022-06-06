@@ -42,27 +42,26 @@ body {
   animation-direction: alternate;
 }
 
-@keyframes slide_in{
-  from{
-    margin-left:100%;
-    width:200%;
+@keyframes slide_in {
+  from {
+    margin-left: 100%;
+    width: 200%;
   }
+
   to {
     margin-right: 0%;
     width: 100%;
   }
-
 }
 
-.connect-transition{
+.connect-transition {
   transition: color;
   transition-duration: 3s;
   transition-delay: 0s;
 }
 
-.connect-transition:hover{
-  color: #091E42;
-  ;
+.connect-transition:hover {
+  color: #091e42;
 }
 
 h1 {
@@ -337,8 +336,12 @@ button {
     width: 50%;
   }
 
-  .pro-desc2_3 {
-    display: block;
+  .proj-desc1_4 {
+    width: 50%;
+  }
+
+  .proj-desc_6 {
+    width: 50%;
   }
 
   .list1 {
@@ -442,17 +445,22 @@ button {
   }
 
   .arrange-lang {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 60%;
     padding-top: 25px;
+    gap: 10px;
   }
 
   .arrange-form {
     display: grid;
     grid-template-rows: 1fr;
     align-items: center;
+  }
+
+  .skill-two {
+    display: flex;
+    flex-direction: column;
   }
 
   .mobile-works1 {
@@ -480,7 +488,7 @@ button {
   }
 
   .img-size {
-    width: 290px;
+    width: 295px;
   }
 
   .bg {
