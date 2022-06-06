@@ -382,6 +382,10 @@ button {
     background-color: #fff;
   }
 
+  .desc1_4 {
+    width: 50%;
+  }
+
   .project6 {
     display: block;
     display: flex;
@@ -483,7 +487,7 @@ button {
   }
 
   .img-size {
-    width: 290px;
+    width: 295px;
   }
 
   .bg {
