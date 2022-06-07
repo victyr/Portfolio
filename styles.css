@@ -272,7 +272,7 @@ footer {
 }
 
 .bgft {
-  background-image: url("../image/contactbg.png");
+  background-image: url("images/contactbg.png");
     background-color: #6070ff;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -562,10 +562,14 @@ button {
   }
 
   .bgft {
-    position: center center;
-    background-image: url("images/desk2.png"), url("images/contact-desk.png");
-    background-repeat: no-repeat, no-repeat;
-    background-size: contain, cover;
+    background-image: url("images/contactbg.png");
+    background-color: #6070ff;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-top-left-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   input {
