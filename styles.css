@@ -304,9 +304,11 @@ footer {
 
 .pitch {
   color: #fff;
+  background-color: #4b59e0;
   font-size: 18px;
 font-weight: 900;
   width: 50%;
+  
 }
 
 .organize_input {
