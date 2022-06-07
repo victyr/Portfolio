@@ -1,4 +1,5 @@
 body {
+  max-width: 1180px;
   font-family: sans-serif;
   box-sizing: border-box;
 }
@@ -330,6 +331,8 @@ button {
     display: flex;
     flex-direction: row;
     gap: 30px;
+    width: 1156px;
+    border-radius: 24px;
   }
 
   .pro-desc {
@@ -342,6 +345,11 @@ button {
 
   .proj-desc_6 {
     width: 50%;
+  }
+
+  .proj-desc2_3{
+    width:50%;
+    padding-right: 95px;
   }
 
   .list1 {
@@ -383,8 +391,9 @@ button {
     padding: 16px;
     margin-bottom: 88;
     border: #dfe1e6 solid;
-    border-radius: 16px;
+    border-radius: 24px;
     background-color: #fff;
+    width: 1156px;
   }
 
   .project6 {
@@ -392,13 +401,13 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap: 30px;
     margin-top: 88px;
     padding: 16px;
     margin-bottom: 88;
     border: #dfe1e6 solid;
     border-radius: 16px;
     background-color: #fff;
+    width: 1156px;
   }
 
   .arrange-icon {
@@ -412,13 +421,13 @@ button {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
-    gap: 30px;
     margin-top: 88px;
     padding: 16px;
     margin-bottom: 88;
     border: #dfe1e6 solid;
     border-radius: 16px;
     background-color: #fff;
+    width: 1156px;
   }
 
   .img-proj5 {
@@ -429,6 +438,7 @@ button {
   .about-sect {
     display: flex;
     flex-direction: row;
+    width: 1156px;
   }
 
   .arrange-desk {
@@ -488,8 +498,26 @@ button {
   }
 
   .img-size {
-    width: 295px;
+    width: 544px;
+    height: 448px;
   }
+
+  .img-size5 {
+      width: 544px;
+      height: 448px;
+  }
+
+  .img-size6 {
+    width: 544px;
+    height: 448px;
+    padding-right: 48px;
+}
+
+.img-size7 {
+  width: 544px;
+  height: 448px;
+  padding-left: 60px;
+}
 
   .bg {
     background-image: url("images/desktop.png");
