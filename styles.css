@@ -293,10 +293,13 @@ footer {
 .contact_align {
   color: #fff;
   padding-top: 127px;
+  font-size: 40px;
+
 }
 
 .pitch {
-  color: #ebebff;
+  color: #fff;
+  font-size: 18px;
   width: 50%;
 }
 
