@@ -85,23 +85,21 @@ ul {
   color: blue;
 }
 
-.social-icons .icon a{
+.social-icons .icon a {
   color: transparent;
   width: 0;
   height: 0;
   margin: -1.5em;
-
 }
 
-.social-icons .icon a .social{
+.social-icons .icon a .social {
   font-size: 2em;
   color: #344563;
   margin-left: 12px;
 }
 
 .connect h2,
-.connect h3
-{
+.connect h3 {
   color: #6070ff;
 }
 
@@ -273,14 +271,13 @@ footer {
 
 .bgft {
   background-image: url("images/contactbg.png");
-    background-color: #6070ff;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-top-left-radius: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-top-left-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .contact-group {
@@ -299,16 +296,14 @@ footer {
   color: #fff;
   padding-top: 127px;
   font-size: 40px;
-
 }
 
 .pitch {
   color: #fff;
   background-color: #4b59e0;
   font-size: 18px;
-font-weight: 900;
+  font-weight: 900;
   width: 50%;
-  
 }
 
 .organize_input {
@@ -318,8 +313,8 @@ font-weight: 900;
   gap: 10px;
 }
 
-.organize_input label{
-visibility: hidden;
+.organize_input label {
+  visibility: hidden;
 }
 
 textarea {
@@ -358,11 +353,10 @@ button {
   text-decoration: blue;
 }
 
-.desk-button button{
+.desk-button button {
   color: #333c91;
   background-color: #fff;
 }
-
 
 @media screen and (min-width: 768px) {
   .project1 {
@@ -385,8 +379,8 @@ button {
     width: 50%;
   }
 
-  .proj-desc2_3{
-    width:50%;
+  .proj-desc2_3 {
+    width: 50%;
     padding-right: 95px;
   }
 
@@ -541,21 +535,21 @@ button {
   }
 
   .img-size5 {
-      width: 544px;
-      height: 448px;
+    width: 544px;
+    height: 448px;
   }
 
   .img-size6 {
     width: 544px;
     height: 448px;
     padding-right: 48px;
-}
+  }
 
-.img-size7 {
-  width: 544px;
-  height: 448px;
-  padding-left: 60px;
-}
+  .img-size7 {
+    width: 544px;
+    height: 448px;
+    padding-left: 60px;
+  }
 
   .bg {
     background-image: url("images/desktop.png");
