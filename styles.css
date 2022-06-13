@@ -20,14 +20,14 @@ body {
   flex-direction: row;
   justify-content: space-between;
   color: blue;
+  background-color: #6070ff;
+  height: 100vh;
 }
 
 .nav-menu {
   flex-direction: column;
   position: fixed;
-  align-content: center;
-  width: 100%;
-  height: 100vh;
+  align-content: left;
 }
 
 .hamburger{
