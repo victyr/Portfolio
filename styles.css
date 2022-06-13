@@ -22,13 +22,12 @@ body {
   color: blue;
 }
 
-.nav_menu {
+.nav-menu {
   flex-direction: column;
   position: fixed;
   align-content: center;
   width: 100%;
   height: 100vh;
-  top: 0;
 }
 
 
