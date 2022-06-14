@@ -1,9 +1,7 @@
-const hamburger = document.querySelector(".hamburger");
-const navmenu = document.querySelector(".nav-menu");
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
 
-hamburger.addEventListener("click",() => {
-   hamburger.classList.toggle("active");
-   navmenu.classList.toggle("active");
-})
-
-document.querySelectorAll()
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}

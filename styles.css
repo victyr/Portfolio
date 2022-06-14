@@ -5,8 +5,8 @@ body {
 }
 
 .header {
-  position: 100%;
-  padding: 15px 30px 10px 30px;
+  padding: 15px 0 10px 30px;
+  width:100%;
 }
 
 .main-sec {
@@ -14,67 +14,60 @@ body {
   height: auto;
 }
 
-.mobile-nav {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  color: blue;
-  background-color: #6070ff;
-  height: 100vh;
+.menu-desktop{
+  display: none;
 }
 
-.nav-menu {
-  flex-direction: column;
+.overlay {
+  height: 100%;
+  width: 0;
   position: fixed;
-  align-content: left;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #6070ff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  mix-blend-mode: multiply;
+}
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: left;
+  padding-left: 10%;
+  size: 32px;
+  line-height: 44px;
 }
 
-.hamburger{
-  display:block;
+.menu-item {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ justify-content: space-between;
+ color: blue;
+ width: 100%;
+}
+
+.open-menu {
+  font-size: 30px;
   cursor: pointer;
 }
 
-
-.hamburger.active .bar:nth-child(2){
-  opacity:0;
-}
-
-.hamburger.active .bar:nth-child(1){
-  transform: translateY(8px) rotate(45deg);
-}
-
-.hamburger.active .bar:nth-child(3){
-  transform: translateY(-8px) rotate(-45deg);
-}
-
-.nav-menu{
-  position: fixed;
-  left: -100%;
-  top: 70px;
-  gap: 0;
-  flex-direction: column;
-  width: 100%;
-  text-align: center;
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  display: block;
   transition: 0.3s;
 }
 
-.nav-item{
-  margin: 16px 0;
-}
-
-.nav-menu.active{
-  left: 0;
-}
-
-.bar{
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-  background-color: blue;
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
 }
 
 .bg {
@@ -324,14 +317,11 @@ footer {
 }
 
 .bgft {
-  background-image: url("images/contactbg.png");
+  background-image: url("images/footer2.png");
   background-color: #6070ff;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-top-left-radius: 100px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .contact-group {
@@ -414,8 +404,22 @@ button {
 
 @media screen and (min-width: 768px) {
 
-  .hamburger{
+  .menu-item {
     display: none;
+  }
+
+  .menu-desktop{
+    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+
+  .overlay-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    justify-content: space-around;
   }
 
   .project1 {
@@ -618,14 +622,11 @@ button {
   }
 
   .bgft {
-    background-image: url("images/contactbg.png");
-    background-color: #6070ff;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-image: url("images/desk2.png"),url("images/contact-desk.png");
+    position: center center;
+    background-repeat: no-repeat,no-repeat;
+    background-size: contain, cover;
     border-top-left-radius: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
   }
 
   input {
