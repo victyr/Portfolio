@@ -6,7 +6,7 @@ body {
 
 .header {
   padding: 15px 0 10px 30px;
-  width: 100%;
+  width:100%;
 }
 
 .main-sec {
@@ -42,12 +42,12 @@ body {
 }
 
 .menu-item {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-between;
-  color: blue;
-  width: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ justify-content: space-between;
+ color: blue;
+ width: 100%;
 }
 
 .open-menu {
@@ -399,6 +399,7 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+
   .menu-item {
     display: none;
   }
@@ -617,9 +618,9 @@ button {
   }
 
   .bgft {
-    background-image: url("images/desk2.png"), url("images/contact-desk.png");
+    background-image: url("images/desk2.png"),url("images/contact-desk.png");
     position: center center;
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: no-repeat,no-repeat;
     background-size: contain, cover;
     border-top-left-radius: 100px;
   }
