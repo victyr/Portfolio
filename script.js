@@ -1,8 +1,8 @@
 
-export default function openNav() {
+ function openNav() {
   document.getElementById('myNav').style.width = '100%';
 }
 
-export default function closeNav() {
+function closeNav() {
   document.getElementById('myNav').style.width = '0%';
 }
