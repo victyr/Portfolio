@@ -156,6 +156,7 @@ ul {
   padding: 40px 30px 10px 30px;
   background-color: #e5e5e5;
   width: 100%;
+  min-width: fit-content;
 }
 
 .project1 {
@@ -233,10 +234,6 @@ ul {
   justify-content: space-between;
   width: 80%;
 }
-
-/* .proj-img {
-  max-width: 100%;
-} */
 
 .about-sect {
   width: 100%;
