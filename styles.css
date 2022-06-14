@@ -14,7 +14,7 @@ body {
   height: auto;
 }
 
-.menu-desktop {
+.menu-desktop{
   display: none;
 }
 
@@ -30,7 +30,6 @@ body {
   transition: 0.5s;
   mix-blend-mode: multiply;
 }
-
 .overlay-content {
   position: relative;
   top: 10%;
@@ -235,6 +234,10 @@ ul {
   width: 80%;
 }
 
+/* .proj-img {
+  max-width: 100%;
+} */
+
 .about-sect {
   width: 100%;
   background: #e5e5e5;
@@ -404,7 +407,7 @@ button {
     display: none;
   }
 
-  .menu-desktop {
+  .menu-desktop{
     display: block;
     display: grid;
     grid-template-columns: 1fr 1fr;
