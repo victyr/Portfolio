@@ -1,8 +1,20 @@
+const menuItem =document.getElementsByClassName('menu-item');
+const containMenu = document.getElementById('container_menu');
+const hamburgerMenu = document.getElementById('hamburger_menu');
+const closeButton = document.getElementById('close_button');
+const navElement = document.querySelectorAll('.menu_mobile a');
 
- function openNav() {
-  document.getElementById('myNav').style.width = '100%';
-}
+hamburgerMenu.addEventListener('click', () => {
+  containMenu.style.display = 'flex';
+  
+});
 
-function closeNav() {
-  document.getElementById('myNav').style.width = '0%';
-}
+closeButton.addEventListener('click', () => {
+  containMenu.style.display = 'none';
+});
+
+navElement.forEach((element) => {
+  element.addEventListener('click', () => {
+    containMenu.style.display = 'none';
+  });
+});
