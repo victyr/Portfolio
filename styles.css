@@ -418,10 +418,6 @@ button {
     gap: 1.5em;
   }
 
-  li .worksd{
-    padding: 10px;
-  }
-
   .project1 {
     display: flex;
     flex-direction: row;
