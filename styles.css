@@ -46,13 +46,17 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-image: url("images/Overlay.png");
   backdrop-filter: blur(5px);
   overflow-x: hidden;
   transition: 0.5s;
   mix-blend-mode: multiply;
   text-align: left;
   font-size: 60px;
+}
+
+.img_menu {
+  background-image: url("images/Overlay.png");
+  height: 100%;
 }
 
 .container_menu .img {
