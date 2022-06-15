@@ -409,15 +409,17 @@ button {
   .menu-desktop {
     display: block;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
+    grid-template-columns: 3fr 1fr;
   }
 
   .overlay-desktop {
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    justify-content: space-around;
+    gap: 1.5em;
+  }
+
+  li .worksd{
+    padding: 10px;
   }
 
   .project1 {
