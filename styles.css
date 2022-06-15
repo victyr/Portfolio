@@ -42,7 +42,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  backdrop-filter: blur(100px);
+  backdrop-filter: blur(10px);
   overflow-x: hidden;
   transition: 0.5s;
   mix-blend-mode: multiply;
